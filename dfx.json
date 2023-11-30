@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "maze_generator": {
+      "main": "src/maze_generator/Main.mo",
+      "type": "motoko"
+    },
+    "maze_generator_assets": {
+      "dependencies": [
+        "maze_generator"
+      ],
+      "frontend": {
+        "entrypoint": "src/maze_generator_assets/src/index.html"
+      },
+      "source": [
+        "src/maze_generator_assets/assets",
+        "dist/maze_generator_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "version": 1
+}

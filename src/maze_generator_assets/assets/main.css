@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #a3d2a1;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 60vw;
+    margin: 20px auto;
+    align-items: center;
+}
+
+#size {
+    display: block;
+    margin: 15px auto 15px;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+#generateBtn {
+    display: block; /* Set the button to a block element to force a new line */
+    padding: 15px 40px; /* Increase padding for a larger button */
+    margin: 10px auto; /* Adjust margin for spacing */
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generateBtn:hover {
+    background-color: #45a049;
+}
+
+#greeting {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#greeting:empty {
+    display: none;
+}
+
+#maze {
+    line-height: 1;
+    white-space: nowrap;
+}
